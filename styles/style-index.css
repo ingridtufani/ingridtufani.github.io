@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
 body {
-    background: #cdc1d2 url( 'arquivos-necessarios-projeto-anna-bella/fundo.png');
     font: 16px Arial, Helvetica, Sans-serif;
 
 }
@@ -14,7 +15,7 @@ body {
     text-align: center;
 }
 #menu a {
-    margin: 0 10px; /* Adiciona espaço entre os botões */
+    margin: 0 10px; 
 }
 
 #conteudo {
