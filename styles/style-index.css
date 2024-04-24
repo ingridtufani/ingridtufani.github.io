@@ -11,6 +11,10 @@ body {
 #menu {
     background: pink;
     padding: 18px;
+    text-align: center;
+}
+#menu a {
+    margin: 0 10px; /* Adiciona espaço entre os botões */
 }
 
 #conteudo {

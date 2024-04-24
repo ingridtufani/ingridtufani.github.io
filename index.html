@@ -1,86 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Ingrid Tufani - website </title>
-        <meta charset="utf-8">
-        
-        <link rel="stylesheet" type="text/css" href="sytles.css">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ingrid Tufani</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style-resume.css">
+</head>
+<body>
+    <div id="container--main">
 
-    </head> 
-    <body>
-
-        <div id="main">
-        
-        
-             <div id="menu"> 
-                
-                <a href="index.html"> RESUME </a> |
-                <a href="hobbies.html"> HOBBIES</a> |
-                <a href="csscheatsheet.html"> CSS CHEAT SHEET </a> 
-                
+        <section class="menu--page">
+            <div id="wrapper--techstack__items">
+                <div class="card--menu"><span>RESUME</span></div>
+                <div class="card--menu"><span>HTML CHEAT SHEET</span></div>
+                <div class="card--menu"><span>CSS CHEAT SHEET</span></div>
             </div>
+        </section>
 
-            <div id="conteudo"> <!-- inicio conteúdo-->
+        <section id="wrapper--hero" class="section--page">
+            <img id="profile-pic" src="./images/profile.enc">
+            <div>
+                <h1 id="user-name">Ingrid Tufani</h1>
+                <p id="bio">Software development Diploma Student, at <a href="https://bowvalleycollege.ca/" target="_blank">Bow Valley College</a>. I am excited to apply my skills and commitment in a professional environment to create a significant influence.</p>
+                <p id="email">👉 i.tufanisavioli879@mybvc.ca</p>
+            </div>  
+        </section>
 
-                <header>
-                    <h1>Ingrid Tufani</h1>
-                    <p>Software Development Student</p>
-                </header>
-                
-                <section>
-                    <h2>Who am I?</h2>
-                    <div class="job">
-                        <p>
-                            I have a degree in law and worked as a lawyer in Brazil, 
-                            but I felt that it wasn't what I wanted for myself. 
-                            So, I began to ponder what would make me happy and fulfilled professionally. 
-                            Consequently, I decided to pursue a second degree in an area that always seemed very interesting to me. 
-                            I am a very curious person who loves challenges. Learning is what makes me feel alive.
-                        </p>
-                        <p>
-                            I also feel that I am discovering who I am and what I want to do as a professional. 
-                            I know that I work hard on the things I set out to do and always give my best
-                        </p>
-                    </div>
-                    
-                    <div class="job">
-                        <h3>Developing Skills</h3>
-                        <ul>
-                            <li>Programming Logic: I need to understand the fundamental principles of programming logic 
-                                to grasp how programs work and how to effectively solve problems.
-                            </li>
-                            <li> Analytical Thinking: I must be able to analyze complex problems and break them down 
-                                into smaller steps to solve programming problems effectively.
-                            </li>
-                            <li>Persistence and Patience: Learning programming can be challenging, 
-                                so I need to have persistence to overcome obstacles and patience to solve complex problems.
-                            </li>
-                            <li>Problem-Solving Skills: It's crucial for me to identify and solve problems 
-                                in my own code effectively.
-                            </li>
-                            <li>Adaptability: Since technology is always changing, I need to be willing 
-                                to learn constantly and adapt to new tools and technologies.
-                            </li>
-                        </ul>
-                        
-                
-                        
-                    </div>
-                
-                <section>
-                    <h2>Education</h2>
-                    <h3>Software Developement</h3>
-                    <p>Bow Valley College - Calgary - AB</p>
-                </section>
-                
-                <section>
-                    <h2>Interests</h2>
-                    <h3>Volunteer work</h3>
-                    <p>I am looking for a volunteer work opportunity.</p>
-                </section>
+        <section class="section--page">
+            <div id="socials--list">
+                <a href="https://www.linkedin.com/in/ingrid-tufani/" target="_blank">Linkedin</a>
+                <a href="https://github.com/ingridtufani/" target="_blank">Github</a>
+                <a href="./assets/Ingrid_Tufani.pdf" target="_blank">Download Resume</a>
+            </div>
+        </section>
 
-        </div>
-        <script src="script.js"></script>
+        <section class="section--page">
+            <h2>About Me</h2>
+            <p>I have a degree in law and worked as a lawyer in Brazil, but I felt that it wasn't what I wanted for myself. So, I began to ponder what would make me happy and fulfilled professionally. Consequently, I decided to pursue a second degree in an area that always seemed very interesting to me. I am a very curious person who loves challenges. Learning is what makes me feel alive. I also feel that I am discovering who I am and what I want to do as a professional. I know that I work hard on the things I set out to do and always give my best</p>
+        </section>
 
-    </body>
+        <section class="section--page">
+            <h2>Developing Skills</h2>
+            <ul id="qualifications--list">
+                <li>✔️ <strong>Logic:</strong> I need to understand the fundamental principles of programming logic to grasp how programs work and how to effectively solve problems.</li>
+                <li>✔️ <strong>Analytical Thinking:</strong> I must be able to analyze complex problems and break them down into smaller steps to solve programming problems effectively.</li>
+                <li>✔️ <strong>Persistence and Patience:</strong> Learning programming can be challenging, so I need to have persistence to overcome obstacles and patience to solve complex problems.</li>
+                <li>✔️ <strong>Problem-Solving Skills:</strong> It's crucial for me to identify and solve problems in my own code effectively.</li>
+                <li>✔️ <strong>Adaptability:</strong> Since technology is always changing, I need to be willing to learn constantly and adapt to new tools and technologies.</li>
+            </ul>
+        </section>
+
+        <section class="section--page">
+            <h2>Interests</h2>
+            <ul id="qualifications--list">
+                <li>✔️ I am looking for a <strong>volunteer work</strong> opportunity.</li>
+            </ul>
+        </section>
+
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
 </html>
